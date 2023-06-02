@@ -4,7 +4,7 @@ var targetDate = new Date("December 18, 2010 21:27:77").getTime();
 // Update the countdown every second
 var countdownInterval = setInterval(function() {
   var now = new Date().getTime();
-  var distance = targetDate - now;
+  var distance = now - targetDate ;
 
   // Calculate days, hours, minutes, and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
