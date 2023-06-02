@@ -1,0 +1,14 @@
+body {
+  background-color: #F5E1F7;
+  text-align: center;
+}
+
+h1 {
+  color: #9B59B6;
+}
+
+.countdown {
+  font-size: 48px;
+  color: #E91E63;
+  margin-top: 20px;
+}
